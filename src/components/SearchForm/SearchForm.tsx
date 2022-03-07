@@ -6,7 +6,6 @@ import { USERS_SEARCH_PLACEHOLDER } from '../../constants';
 import './styles/search-form.css';
 import './styles/search-form__input.css';
 import './styles/search-form__submit-button.css';
-import { setCurrentPage } from '../../utils/slices/pagesSlice';
 
 const SearchForm = (): JSX.Element => {
   const dispatch = useAppDispatch();
@@ -21,7 +20,6 @@ const SearchForm = (): JSX.Element => {
     evt.preventDefault();
 
     dispatch(searchUsers(searchQuery));
-    dispatch(setCurrentPage(1));
   }
 
   return (

@@ -34,7 +34,7 @@ const UsersListSection = (): JSX.Element => {
         <TableDisplayOptionsPanel />
         <UsersTable usersIds={ usersIds.slice(sliceStart, sliceEnd) } />
       </div>
-      <PageNavPanel itemsCount={ usersIds.length } />
+      <PageNavPanel />
     </section>
   )
 }
