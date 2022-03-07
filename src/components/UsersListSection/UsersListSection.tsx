@@ -17,7 +17,7 @@ const UsersListSection = (): JSX.Element => {
   const currentPage = useAppSelector(state => state.pages.currentPage);
 
   const sliceStart = (currentPage - 1) * PAGINATION_STEP;
-  const sliceEnd = currentPage * PAGINATION_STEP - 1;
+  const sliceEnd = currentPage * PAGINATION_STEP;
 
   const usersIds = useAppSelector(state => {
     return state.users.displayedUsers.map(user => user.id);
