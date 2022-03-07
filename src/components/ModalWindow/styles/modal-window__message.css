@@ -1,0 +1,14 @@
+.modal-window__message {
+  grid-area: message;
+  align-self: center;
+
+  margin: 0;
+
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  color: #000;
+
+  overflow-wrap: break-word;
+}

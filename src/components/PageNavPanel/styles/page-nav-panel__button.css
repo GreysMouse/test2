@@ -1,0 +1,23 @@
+.page-nav-panel__button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+
+  width: 30px;
+  height: 30px;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #000;
+
+  background-color: #e3e3e3;
+  transition: background-color 0.3s linear;
+}
+
+.page-nav-panel__button:hover {
+  cursor: pointer;
+  background-color: #c2c2c2;
+}

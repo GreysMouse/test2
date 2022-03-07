@@ -1,0 +1,12 @@
+.table-display-options-panel__label {
+  border-bottom: 1px dashed;
+
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #9eaab4;
+}
+
+.table-display-options-panel__label:hover {
+  cursor: pointer;
+}

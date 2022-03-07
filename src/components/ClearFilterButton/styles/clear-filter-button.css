@@ -1,0 +1,23 @@
+.clear-filter-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  margin: 24px 0 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #0000;
+
+  width: max-content;
+  
+  font-size: 12px;
+  font-weight: 500;
+  color: #4f4f4f;
+
+  transition: color .25s linear;
+}
+
+.clear-filter-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.clear-filter-button_inactive {
+  opacity: 0.3;
+}
+
+.clear-filter-button_inactive:hover {
+  cursor: default;
+}

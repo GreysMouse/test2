@@ -1,0 +1,11 @@
+.search-form {
+  display: flex;
+  gap: 4px;
+
+  padding: 5px 3px;  
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #eceff0;
+  
+  width: 100%;
+}

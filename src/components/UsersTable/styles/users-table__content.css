@@ -1,0 +1,5 @@
+.users-table__content {
+  border-collapse: collapse;
+  table-layout: fixed;          /*these two properties together*/
+  width: 100%;                  /*give equal columns width*/
+}

@@ -1,0 +1,15 @@
+.modal-window__button {
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  height: 27px;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.modal-window__button:hover {
+  cursor: pointer;
+}

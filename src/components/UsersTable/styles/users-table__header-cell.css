@@ -1,0 +1,4 @@
+.users-table__header-cell {
+  padding: 0 14px 22px 0;
+  width: auto;                /*nesessary for the special width of last column*/
+}

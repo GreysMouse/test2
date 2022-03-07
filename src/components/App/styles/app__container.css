@@ -1,0 +1,13 @@
+.app__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 25px;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+  .app__container {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,12 @@
+.search-form__submit-button {
+  padding: 0;
+  border: none;
+
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/search-input-icon.svg) center/contain no-repeat;
+}
+
+.search-form__submit-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.users-table-row__delete-button {
+  display: block;
+
+  padding: 0;
+  border: none;
+  outline: none;
+
+  width: 16px;
+  height: 16px;
+
+  background: url(../../../images/user-delete-icon.svg) center/contain no-repeat;
+}
+
+.users-table-row__delete-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.users-table__header {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+  color: #9eaab4;
+
+  overflow-wrap: break-word
+}
